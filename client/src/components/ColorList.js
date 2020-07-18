@@ -112,8 +112,11 @@ const ColorList = ({ colors, updateColors }) => {
           <div className="button-row">
             <button type="submit">save</button>
             <button onClick={() => setEditing(false)}>cancel</button>
+            
           </div>
+
         </form>
+
       )}
       <div className="spacer" />
       {/* stretch - build another form here to add a color */}
