@@ -11,6 +11,7 @@ function App() {
   return (
     <Router>
       <div className="app">
+ 
         <div className="nav" style={{width: '50%'}}>
         <Link to="/" style={{ textDecoration: 'none', marginRight: '5%'}} >Login</Link>
         <Link to="/protected" style={{ textDecoration: 'none' }}>Bubble Page</Link>
@@ -22,6 +23,19 @@ function App() {
           <Route exact path="/" component={Login} />
           <Route component={Login} />
         </Switch>
+        </div>
+
+        <div id="background-wrap">
+    <div class="bubble x1"></div>
+    <div class="bubble x2"></div>
+    <div class="bubble x3"></div>
+    <div class="bubble x4"></div>
+    <div class="bubble x5"></div>
+    <div class="bubble x6"></div>
+    <div class="bubble x7"></div>
+    <div class="bubble x8"></div>
+    <div class="bubble x9"></div>
+    <div class="bubble x10"></div>
       </div>
     </Router>
   );
